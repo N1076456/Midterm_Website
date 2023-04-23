@@ -1,0 +1,102 @@
+body {
+  text-align: left;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
+p {
+  font-size: 1.3rem;
+}
+.container {
+  display: grid;
+  grid-template-columns: 0.2fr 0.4fr 0.4fr;
+  grid-column-gap: 10px;
+  grid-row-gap: 15px;
+}
+.grid {
+  background-color: #444;
+  color: gray;
+  padding: 25px;
+  font-size: 2rem;
+}
+.header {
+  grid-column: 1 / 4;
+  grid-row: 1 / 2;
+  min-height: 300px;
+  background-image: url("sky-mirror.jpeg");
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.sidebar {
+  grid-column: 1 / 2;
+  grid-row: 2 / 7;
+  min-height: 400px;
+  background-color: #EBFAFF;
+  border: 2px solid gray;
+}
+.content {
+  grid-column: 2 / 4;
+  grid-row: 2 / 6;
+  min-height: 500px;
+  background-color: white;
+  border: 2px solid gray;
+  border-radius: 12px;
+}
+
+.related-image {
+  grid-column: 2 / 4;
+  grid-row: 6 / 7;
+  min-height: 400px;
+  background-color: white;
+  border: 2px solid gray;
+  border-radius: 12px;
+}
+
+.footer {
+  grid-column: 1 / 4;
+  grid-row: 9 / 10;
+  background-color: skyblue;
+  text-align: center;
+  font-size: 16px;
+  color: white;
+} 
+
+hr { 
+  height: 6px;
+  border: none;
+  background: rgba(0, 0, 0, 0.1);
+}   
+hr:last-child {
+  margin-right: 60%;
+}
+hr.image {
+  padding-bottom: 50%;
+}
+ul {
+  padding: 0;
+  font-size: 1.5rem;
+}  
+ul li, ol li {
+  color: #404040;
+  border-left: solid 6px #1fa67a; /*左側的線*/
+  border-bottom: solid 2px #dadada; /*灰色線*/
+  background: whitesmoke;
+  margin-bottom: 5px; 
+  line-height: 1.5;
+  padding: 0.5em;
+  list-style-type: none !important;
+  font-weight: bold;
+}
+a,a:link {
+  color:gray;
+}
+a,a:visited {
+  color:gray;
+}
+a,a:hover {
+  color:skyblue;
+}
+h1 {
+  mix-blend-mode: overlay; 
+  color: white;
+}
