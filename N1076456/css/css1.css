@@ -21,7 +21,7 @@ p {
   grid-column: 1 / 4;
   grid-row: 1 / 2;
   min-height: 300px;
-  background-image: url("css/sky-mirror.jpeg");
+  background-image: url("sky-mirror.jpeg");
   background-position: center top;
   background-repeat: no-repeat;
   background-attachment: fixed;
